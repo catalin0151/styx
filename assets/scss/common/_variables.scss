@@ -1,0 +1,30 @@
+:root {
+  --global-palette1: #3182CE;
+  --global-palette2: #2B6CB0;
+  --global-palette3: #1A202C;
+  --global-palette4: #2D3748;
+  --global-palette5: #4A5568;
+  --global-palette6: #718096;
+  --global-palette7: #EDF2F7;
+  --global-palette8: #F7FAFC;
+  --global-palette9: #ffffff;
+  --global-palette-highlight: var(--global-palette1);
+  --global-palette-highlight-alt: var(--global-palette2);
+  --global-palette-highlight-alt2: var(--global-palette9);
+  --global-palette-btn-bg: var(--global-palette1);
+  --global-palette-btn-bg-hover: var(--global-palette2);
+  --global-palette-btn: var(--global-palette9);
+  --global-palette-btn-hover: var(--global-palette9);
+  --global-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  --global-gray-400: #CBD5E0;
+  --global-gray-500: #A0AEC0;
+  --global-xs-spacing: 1em;
+  --global-sm-spacing: 1.5rem;
+  --global-md-spacing: 2rem;
+  --global-lg-spacing: 2.5em;
+  --global-xl-spacing: 3.5em;
+  --global-xxl-spacing: 5rem;
+  --global-edge-spacing: 1.5rem;
+  --global-boxed-spacing: 2rem;
+}

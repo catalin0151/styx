@@ -1,0 +1,2 @@
+# pontus
+Initial wordpress theme

@@ -1,0 +1,12 @@
+@import "common/index";
+@import "components/index";
+@import "style/index";
+
+#styx .card {
+  box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.05);
+  border-radius: .25rem;
+  border: none;
+}
+.skip-link {
+  display: none;
+}

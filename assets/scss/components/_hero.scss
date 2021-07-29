@@ -1,0 +1,17 @@
+.styx-hero {
+
+  &__inner {
+    display: flex;
+    align-items: center;
+
+    > .container {
+      z-index: 1;
+    }
+  }
+
+  > .customize-partial-edit-shortcut {
+    right: 20px;
+    top: 20px;
+  }
+
+}
