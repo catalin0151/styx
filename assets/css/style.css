@@ -95,7 +95,8 @@ a {
   transition: all .1s linear;
   text-decoration: underline; }
 
-body a {
+#main-content a,
+#footer a {
   text-decoration: underline !important; }
 
 #hero a,
@@ -182,12 +183,16 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 #styx-single-content__container .styx-post-tags a,
 #styx-archive-content__container .styx-post-tags a {
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: bold;
   margin-bottom: 0.5em;
   letter-spacing: .05em;
   font-size: 70%;
   text-transform: uppercase; }
+
+#styx-single-content__container .styx-post-title,
+#styx-archive-content__container .styx-post-title {
+  text-decoration: none !important; }
 
 #styx-single-content__container .styx-post-meta-container,
 #styx-archive-content__container .styx-post-meta-container {
@@ -198,7 +203,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   #styx-single-content__container .styx-post-meta-container a,
   #styx-archive-content__container .styx-post-meta-container a {
     color: inherit;
-    text-decoration: none; }
+    text-decoration: none !important;
+    font-weight: 600; }
   #styx-single-content__container .styx-post-meta-container > *:after,
   #styx-archive-content__container .styx-post-meta-container > *:after {
     margin-left: .5rem;
@@ -243,9 +249,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   width: 100%; }
 
 .comment-form a {
-  text-decoration: none;
-  border: none;
-  color: inherit; }
+  border: none; }
 
 .styx-hero__inner {
   display: flex;

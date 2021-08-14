@@ -85,7 +85,8 @@ a {
   transition: all .1s linear;
   text-decoration: underline;
 }
-body a {
+#main-content a,
+#footer a{
   text-decoration: underline !important;
 }
 #hero a,
