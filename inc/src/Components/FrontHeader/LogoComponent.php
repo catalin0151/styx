@@ -93,7 +93,7 @@ class LogoComponent extends ComponentBase
     public function renderTextLogo() {
 
         echo sprintf('<a class="styx-text-logo" data-type="group" data-dynamic-mod="true" href="%1$s">%2$s</a>',
-            $this->getHomeurl(), get_bloginfo('name'));
+            esc_attr($this->getHomeurl()), esc_html(get_bloginfo('name')));
 
     }
 

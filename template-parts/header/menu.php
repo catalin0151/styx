@@ -6,11 +6,6 @@
 
 
         <?php
-        //    wp_nav_menu(array(
-        //        'theme_location' => 'primary_menu',
-        //        'menu_class' => 'styx-menu',
-        //        'container_class' => 'colibri-menu-container'
-        //    ));
 
         wp_nav_menu(array(
                 'theme_location' => 'primary_menu',

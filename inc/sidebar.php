@@ -12,9 +12,5 @@ add_action( 'widgets_init', function() {
 } );
 
 function styx_widget_area( $id ) {
-
-    ob_start();
     dynamic_sidebar( $id );
-    $content = ob_get_clean();
-    echo $content;
 }

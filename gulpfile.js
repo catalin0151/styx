@@ -5,30 +5,34 @@ var concat = require('gulp-concat');
 
 //compile scss into css
 function minStyle() {
-    return gulp.src('./assets/scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(concat('style.min.css'))
+    return gulp.src('./assets/scss/style.scss')
+        .pipe(sass())
+        .on('error', sass.logError)
+      .pipe(concat('style.min.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest('./assets/css'))
 }
 
 function minCustomizerStyle() {
-    return gulp.src('./assets/customizer/scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(concat('customizer.min.css'))
+    return gulp.src('./assets/customizer/scss/style.scss')
+        .pipe(sass())
+        .on('error', sass.logError)
+       .pipe(concat('customizer.min.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest('./assets/css'))
 }
 function prodStyle() {
-    return gulp.src('./assets/scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
+    return gulp.src('./assets/scss/style.scss')
+        .pipe(sass())
+        .on('error', sass.logError)
         .pipe(concat('style.css'))
         //.pipe(cleanCss())
         .pipe(gulp.dest('./assets/css'))
 }
 function prodCustomizerStyle() {
-    return gulp.src('./assets/customizer/scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
+    return gulp.src('./assets/customizer/scss/style.scss')
+        .pipe(sass())
+        .on('error', sass.logError)
         .pipe(concat('customizer.css'))
         //.pipe(cleanCss())
         .pipe(gulp.dest('./assets/css'))

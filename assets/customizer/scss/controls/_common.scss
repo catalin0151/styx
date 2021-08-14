@@ -1,0 +1,19 @@
+.customize-control {
+  margin-bottom: 10px;
+}
+[class*="customize-control-kirki"] {
+  h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .customize-control-title {
+    margin-bottom: 5px;
+  }
+  textarea {
+    width: 100%;
+  }
+}
+//remove kirki default panels
+#accordion-section-header_image, #accordion-section-colors {
+  display: none !important;
+}

@@ -267,21 +267,6 @@ class Kirki_Fonts_Downloader {
 		return $result;
 	}
 
-	/**
-	 * Get the filesystem.
-	 *
-	 * @access protected
-	 * @since 3.1.0
-	 * @return WP_Filesystem
-	 */
-	protected function get_filesystem() {
-		global $wp_filesystem;
-		if ( ! $wp_filesystem ) {
-			if ( ! function_exists( 'WP_Filesystem' ) ) {
-				require_once wp_normalize_path( ABSPATH . '/wp-admin/includes/file.php' );
-			}
-			WP_Filesystem();
-		}
-		return $wp_filesystem;
-	}
+
+	protected function get_filesystem() {}
 }

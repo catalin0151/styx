@@ -7,6 +7,7 @@ function styx_url($path) {
     return get_template_directory_uri() . '/' . $path;
 }
 
+
 function styx_in_customizer() {
     global $wp_customize;
     return isset($wp_customize);
@@ -76,7 +77,6 @@ function styx_init() {
     add_theme_support('customize-selective-refresh-widgets');
     add_theme_support('title-tag');
     add_theme_support('custom-header');
-////    add_theme_support( "custom-background");
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo', array(
         'flex-height' => true,

@@ -4,22 +4,14 @@ Tags: entertainment, food-and-drink, portfolio, one-column, two-columns, right-s
 Requires at least: 4.4
 Tested up to: 5.8
 Requires PHP: 5.6
-License: GNU General Public License v3.0 (or later)
+License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 Styx  is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites suitable for your Startup, IT Agency, Fashion Shop, Business Startup, and blog websites. It offers a variety of customization options. The theme is SEO optimized, Responsive, and compatible with browsers such as IE11, Edge, Chrome, Brave, Firefox, Safari, Opera, UC, etc.
 
 == License ==
-Styx is released under GNU General Public License v3.0 (or later)
 
-Unless otherwise specified, all the theme files and scripts are licensed under GNU General Public License.
-
-The exceptions to this license are as follows:
-
--------------------------------------------------------------------------------------------------
-License and Copyrights for Resources used in Styx  WordPress Theme
--------------------------------------------------------------------------------------------------
 1) Bootstrap Framework
 =================================================================================================
 Bootstrap

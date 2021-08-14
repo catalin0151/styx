@@ -84,7 +84,7 @@ abstract class ComponentBase
     public function renderCSS() {
         ?>
         <style type="text/css">
-            <?php echo $this->getCSS();?>
+            <?php echo esc_html($this->getCSS());?>
         </style>
         <?php
     }
@@ -102,7 +102,7 @@ abstract class ComponentBase
         }
 
         ?>
-        <div data-partial-refresh-setting="<?php echo esc_attr($this::$prefix) ?>" class="<?php echo implode(' ', $classes) ?>">
+        <div data-partial-refresh-setting="<?php echo esc_attr($this::$prefix) ?>" class="<?php echo esc_attr(implode(' ', $classes));?>">
                  <?php $this->renderCSS() ?>
                  <?php $this->renderTemplate(); ?>
         </div>

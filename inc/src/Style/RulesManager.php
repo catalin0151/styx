@@ -121,7 +121,10 @@ class RulesManager
         ob_start();
         ?>
         <style type="text/css">
-            <?php echo $selector; ?>
+            <?php
+            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $selector;
+            ?>
             {
             <?php
                 foreach($rule->getStyle() as $property => $value) {

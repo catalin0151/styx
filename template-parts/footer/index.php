@@ -1,1 +1,2 @@
-<?php Styx\ComponentsRepository::render('footer'); ?>
+<?php
+Styx\ComponentsRepository::render('footer');

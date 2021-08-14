@@ -1,0 +1,19 @@
+.customize-control-kirki-slider {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type=range] {
+    flex: 1 0 auto;
+    margin-right: 10px;
+  }
+  .slider-reset {
+    display: none;
+  }
+  span.value {
+    flex: 0 0 auto;
+    width: 60px;
+  }
+}
