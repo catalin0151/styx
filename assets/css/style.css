@@ -301,6 +301,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
       .styx-navigation.navbar .navbar-nav > li .dropdown-menu {
         border: none; }
         .styx-navigation.navbar .navbar-nav > li .dropdown-menu a {
+          width: calc(100% - 20px);
           margin-left: 20px; } }
 
 .navbar a:hover,

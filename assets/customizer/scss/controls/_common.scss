@@ -13,7 +13,11 @@
     width: 100%;
   }
 }
-//remove kirki default panels
-#accordion-section-header_image, #accordion-section-colors {
-  display: none !important;
+
+
+.customize-control-checkbox {
+  .customize-inside-control-row {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }

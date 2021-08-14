@@ -11,7 +11,7 @@ class MenuComponent extends ComponentBase
 {
 
     public static $prefix = 'front-header.menu.';
-    protected static $rootClass = 'menu-test-container';
+    protected static $rootClass = 'styx-menu-container';
     protected static $template = 'header/menu';
 
     public function getStyledComponents() {

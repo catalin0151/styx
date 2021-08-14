@@ -1,6 +1,6 @@
 <?php $instance = \Styx\ComponentsRepository::getActiveComponent() ?>
 <nav class="navbar navbar-expand-lg position-relative navbar-light position-relative   d-flex  align-items-center <?php echo esc_attr($instance->getRootClasses()) ?>">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap px-2 px-md-0">
 
             <?php Styx\ComponentsRepository::render('logo') ?>
 

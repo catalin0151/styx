@@ -11,8 +11,9 @@
 [class*="customize-control-kirki"] textarea {
   width: 100%; }
 
-#accordion-section-header_image, #accordion-section-colors {
-  display: none !important; }
+.customize-control-checkbox .customize-inside-control-row {
+  padding-top: 0;
+  padding-bottom: 0; }
 
 .kirki-controls-title-control {
   display: block;
@@ -59,15 +60,10 @@
       padding-right: 0; }
 
 .customize-control-kirki-color .wp-color-result {
-  margin: 0 !important; }
+  margin-bottom: 0 !important; }
 
-.customize-control-kirki-color .kirki-input-container {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.customize-control-kirki-color label {
-  flex: 1 0 0; }
+.customize-control-kirki-color .wp-picker-container .iris-picker {
+  margin-top: 10px; }
 
 .customize-control-kirki-typography .wrapper > div:not(:last-child) {
   margin-bottom: 10px; }

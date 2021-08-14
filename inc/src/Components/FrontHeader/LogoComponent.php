@@ -99,6 +99,7 @@ class LogoComponent extends ComponentBase
 
     public function renderLogo() {
         if ($this->logoIsImage()) {
+            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
             echo get_custom_logo();
         }
         if ($this->logoIsText()) {

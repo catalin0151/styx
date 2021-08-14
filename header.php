@@ -16,7 +16,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 }
 ?>
 <div class="site">
-    <a class="skip-link" href="#main-content"><?php __('Skip to main content', 'styx') ?></a>
+    <a class="skip-link" href="#main-content"><?php _e( 'Skip to main content', 'styx' );  ?></a>
     <?php get_template_part( 'template-parts/header/header' ); ?>
 
 <div id="main-content">

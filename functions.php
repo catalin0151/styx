@@ -12,7 +12,6 @@ function styx_in_customizer() {
     global $wp_customize;
     return isset($wp_customize);
 }
-//require_once styx_dir( 'inc/class-kirki-installer-section.php' );
 require_once styx_dir('inc/functions.php');
 
 
@@ -76,7 +75,6 @@ function styx_init() {
     add_theme_support('automatic-feed-links');
     add_theme_support('customize-selective-refresh-widgets');
     add_theme_support('title-tag');
-    add_theme_support('custom-header');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo', array(
         'flex-height' => true,

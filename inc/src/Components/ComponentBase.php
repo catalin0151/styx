@@ -84,7 +84,10 @@ abstract class ComponentBase
     public function renderCSS() {
         ?>
         <style type="text/css">
-            <?php echo esc_html($this->getCSS());?>
+            <?php
+            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $this->getCSS();
+            ?>
         </style>
         <?php
     }

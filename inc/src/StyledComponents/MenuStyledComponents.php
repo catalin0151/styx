@@ -11,27 +11,28 @@ class MenuStyledComponents extends StyledComponentsBase
     const  SUBMENU_CONTAINER = 'submenuContainer';
     const  SUBMENU_ITEM = 'submenuItem';
 
+    const MAIN_MENU_SELECTOR = 'ul.navbar-nav';
     public function elements() {
         return [
             [
                 'id' => self::CONTAINER,
-                'selector' => ''
+                'selector' => self::MAIN_MENU_SELECTOR
             ],
             [
                 'id' => self::MENU_ITEM,
-                'selector' => '> ul > li'
+                'selector' => sprintf('%s > li', self::MAIN_MENU_SELECTOR)
             ],
             [
                 'id' => self::MENU_ITEM_ACTIVE,
-                'selector' => '> ul li.current-menu-item'
+                'selector' => sprintf('%s li.current-menu-item', self::MAIN_MENU_SELECTOR)
             ],
             [
                 'id' => self::SUBMENU_CONTAINER,
-                'selector' => ' > ul > li ul'
+                'selector' => sprintf('%s > li ul',self::MAIN_MENU_SELECTOR )
             ],
             [
                 'id' => self::SUBMENU_ITEM,
-                'selector' => '> ul > li ul li'
+                'selector' => sprintf('%s > li ul li', self::MAIN_MENU_SELECTOR)
             ]
         ];
     }

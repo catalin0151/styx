@@ -1,13 +1,8 @@
 .customize-control-kirki-color {
   .wp-color-result {
-    margin: 0 !important;
+    margin-bottom: 0 !important;
   }
-  .kirki-input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  label {
-    flex: 1 0 0;
+  .wp-picker-container .iris-picker {
+    margin-top: 10px;
   }
 }
