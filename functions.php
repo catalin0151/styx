@@ -27,6 +27,7 @@ function styx_load_assets() {
 }
 
 function styx_load_customizer_assets() {
+    wp_enqueue_style('kirki-library-style', styx_url('/includes/kirki/controls/css/styles.css'), false, '1.1');
     wp_enqueue_style('styx-customizer-style', styx_url('/assets/css/customizer.min.css'), false, '1.1');
 }
 add_action('wp_enqueue_scripts', 'styx_load_assets');

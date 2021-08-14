@@ -27,43 +27,14 @@
   background-color: #f7f7f7;
   text-transform: uppercase; }
 
-.customize-control-kirki-slider .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center; }
-
-.customize-control-kirki-slider input[type=range] {
-  flex: 1 0 auto;
-  margin-right: 10px; }
+.customize-control-kirki-slider .customize-control-title {
+  margin-bottom: 0 !important; }
 
 .customize-control-kirki-slider .slider-reset {
   display: none; }
-
-.customize-control-kirki-slider span.value {
-  flex: 0 0 auto;
-  width: 60px; }
-
-.customize-control-kirki-dimensions .control {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 20px;
-  border: 1px solid #ccc; }
-  .customize-control-kirki-dimensions .control > div {
-    flex: 0 0 50%;
-    box-sizing: border-box;
-    padding-right: 5px;
-    margin-bottom: 10px; }
-    .customize-control-kirki-dimensions .control > div:nth-child(even) {
-      padding-right: 0; }
 
 .customize-control-kirki-color .wp-color-result {
   margin-bottom: 0 !important; }
 
 .customize-control-kirki-color .wp-picker-container .iris-picker {
   margin-top: 10px; }
-
-.customize-control-kirki-typography .wrapper > div:not(:last-child) {
-  margin-bottom: 10px; }

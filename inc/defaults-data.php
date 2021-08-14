@@ -147,6 +147,14 @@ return array(
         )
     ),
     'footer' => array(
-        'content' => __('Created using Styx powered by Wordpress', 'styx')
+        'content' => __('Created using Styx powered by Wordpress', 'styx'),
+        'background' => array(
+            'color' => '#e9ecef'
+        ),
+        'padding' => array(
+            'padding-top' => '64px',
+            'padding-bottom' => '64px'
+        ),
+        'color' => '#2D3748'
     )
 );
