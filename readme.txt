@@ -1,6 +1,6 @@
 === Styx ===
 Contributors: limitlessthemes
-Tags: entertainment, food-and-drink, portfolio, one-column, two-columns, right-sidebar, grid-layout, custom-header, custom-menu, custom-logo, full-width-template, theme-options, translation-ready, featured-images, threaded-comments
+Tags: blog, entertainment, food-and-drink , grid-Layout, one-column, two-columns, flexible-header, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, theme-options, sticky-post, threaded-comments, translation-ready, featured-images, full-width-template
 Requires at least: 4.4
 Tested up to: 5.8
 Requires PHP: 5.6
@@ -8,8 +8,7 @@ License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
-Styx  is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites suitable for your Startup, IT Agency, Fashion Shop, Business Startup, and blog websites. It offers a variety of customization options. The theme is SEO optimized, Responsive, and compatible with browsers such as IE11, Edge, Chrome, Brave, Firefox, Safari, Opera, UC, etc.
-
+Styx Theme is a modern multipurpose lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. The theme perfectly suited for business, beauty & spa salons, photography, blog, magazines, architecture, interior design, decoration, furniture, home decor, construction, corporate, agency, business promotion, industries, gym, law firms, education & schools, university, restaurant & hotels, travel agency, hospital medical care, and many other websites compatible. The theme is fully responsive and compatible with popular WordPress plugins like Elementor Page Builder, Brizy, Beaver Builder, Visual Composer, Gutenberg, Block-Enabled, Polylang, WPML, Yoast SEO, Jetpack, Contact Form 7, Mailchimp for WordPress, WPForms, Google Analytics and more. The theme offers a variety of theme options is SEO optimized, and compatible with every modern browser.
 == License ==
 
 1) Bootstrap Framework

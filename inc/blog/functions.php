@@ -82,7 +82,11 @@ function styx_render_post_meta() {
 }
 
 function styx_render_post_read_more() {
-
+    ?>
+    <a href="<?php echo esc_url(get_the_permalink()); ?>">
+        Read More
+    </a>
+    <?php
 }
 
 function styx_render_post_navigation() {

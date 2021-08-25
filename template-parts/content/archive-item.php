@@ -10,11 +10,6 @@
             styx_render_post_excerpt();
             styx_render_post_read_more();
             ?>
-
-
-            <a href="<?php echo esc_url(get_the_permalink()); ?>">
-                Read More
-            </a>
         </div>
     </div>
 </div>

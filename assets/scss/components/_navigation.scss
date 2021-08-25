@@ -34,8 +34,6 @@
       align-items: center;
       justify-content: space-between;
       padding: 10px 0 10px 30px;
-      font-size: 16px;
-      color: var(--global-palette5);
       white-space: nowrap;
       transition: 0.3s;
 
@@ -86,6 +84,8 @@
 .navbar a,
 .navbar li:hover > a {
   color: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
 }
 
 
@@ -99,6 +99,7 @@
     padding: 10px 0;
     z-index: 99;
     opacity: 0;
+    pointer-events: none;
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
@@ -129,6 +130,7 @@
     opacity: 1;
     top: 100%;
     visibility: visible;
+    pointer-events: initial;
   }
 
   .navbar .dropdown .dropdown ul {

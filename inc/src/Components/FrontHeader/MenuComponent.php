@@ -64,11 +64,21 @@ class MenuComponent extends ComponentBase
                 'priority' => 4
             ],
             [
+                'settings' => $this->settingPath('menuItem.typography'),
+                'path' => 'typography',
+                'styledComponent' => MenuStyledComponents::MENU_ITEM,
+                'type' => 'typography',
+                'label' => __('Typography', 'styx'),
+                'section' => $section,
+                'default' => Defaults::get($this->settingPath('menuItem.typography')),
+                'priority' => 5
+            ],
+            [
                 'settings' => $this->settingPath('separator' . $this->separatorIndex++),
                 'type' => 'title',
                 'label' => __('Submenu Style', 'styx'),
                 'section' => $section,
-                'priority' => 5
+                'priority' => 15
             ],
             [
                 'settings' => $this->settingPath('submenuItem.color'),
@@ -79,7 +89,7 @@ class MenuComponent extends ComponentBase
                 'section' => $section,
                 //   'active_callback' => $this->getActiveCallback(),
                 'default' => Defaults::get($this->settingPath('submenuItem.color')),
-                'priority' => 6
+                'priority' => 16
             ],
             [
                 'settings' => $this->settingPath('submenuItem.states.hover.color'),
@@ -91,7 +101,7 @@ class MenuComponent extends ComponentBase
                 'section' => $section,
                 //   'active_callback' => $this->getActiveCallback(),
                 'default' => Defaults::get($this->settingPath('submenuItem.states.hover.color')),
-                'priority' => 7
+                'priority' => 17
             ],
             [
                 'settings' => $this->settingPath('submenuContainer.background.color'),
@@ -102,7 +112,17 @@ class MenuComponent extends ComponentBase
                 'section' => $section,
                 //   'active_callback' => $this->getActiveCallback(),
                 'default' => Defaults::get($this->settingPath('submenuContainer.background.color')),
-                'priority' => 7
+                'priority' => 18
+            ],
+            [
+                'settings' => $this->settingPath('submenuItem.typography'),
+                'path' => 'typography',
+                'styledComponent' => MenuStyledComponents::SUBMENU_ITEM,
+                'type' => 'typography',
+                'label' => __('Typography', 'styx'),
+                'section' => $section,
+                'default' => Defaults::get($this->settingPath('submenuItem.typography')),
+                'priority' => 19
             ],
         ];
     }

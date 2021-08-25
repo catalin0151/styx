@@ -54,6 +54,16 @@ class FooterComponent extends ComponentBase
                 'default' => Defaults::get($this->settingPath('padding')),
                 'priority' => 4
             ],
+            [
+                'settings' => $this->settingPath('typography'),
+                'path' => 'typography',
+                'styledComponent' => FooterStyledComponents::CONTAINER,
+                'type' => 'typography',
+                'label' => __('Typography', 'styx'),
+                'section' => $section,
+                'default' => Defaults::get($this->settingPath('typography')),
+                'priority' => 5
+            ],
         ];
     }
 

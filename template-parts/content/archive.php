@@ -1,6 +1,6 @@
 <div id="styx-archive-content__container" class="container mb-4">
     <div class="row">
-        <div class="col-md-9 col-12 styx-content">
+        <div class="col styx-content">
             <div class="row">
                 <?php
                 if (have_posts()) {
@@ -16,8 +16,20 @@
                 </div>
             </div>
         </div>
+
+            <?php
+            $sidebarIsActive = \is_active_sidebar( 'styx-sidebar-1' );
+                ob_start();
+                if($sidebarIsActive):
+            ?>
         <div class="styx-sidebar col-md-3 col-12">
                 <?php styx_widget_area('styx-sidebar-1'); ?>
         </div>
+        <?php
+            endif;
+            $sidebar = ob_get_clean();
+            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $sidebar
+        ?>
     </div>
 </div>

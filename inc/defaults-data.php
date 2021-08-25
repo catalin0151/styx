@@ -15,6 +15,10 @@ return array(
         'menu' => array(
             'menuItem' => array(
                 'color' => '#4A5568',
+                'typography' => array(
+                    'font-size' => '16px',
+                    'line-height' => '1.6',
+                ),
                 'states' => array(
                     'hover' => array(
                         'color' => '#3182CE'
@@ -26,6 +30,10 @@ return array(
             ),
             'submenuItem' => array(
                 'color' => '#4A5568',
+                'typography' => array(
+                    'font-size' => '14px',
+                    'line-height' => '1.6',
+                ),
                 'states' => array(
                     'hover' => array(
                         'color' => '#3182CE'
@@ -40,7 +48,7 @@ return array(
         ),
         'hero' => array(
             'background' => array(
-                'image' => get_template_directory_uri() . "/assets/images/road-traffic-street-car-automobile-city-808521-pxhere.com.jpg",
+                'image' => get_template_directory_uri() . "/assets/images/road-traffic-street-car-automobile-city.jpg",
                 'overlay' => array(
                     'enabled' => true,
                     'color' => '#000',
@@ -72,7 +80,7 @@ return array(
             'color' => 'white',
             'content' => __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimnad minim veniam, quis nostrud exercitation ullamco laboris nisi.', 'styx'),
             'typography' => array(
-                'font-size' => '1.25rem',
+                'font-size' => '20px',
                 'line-height' => '1.6',
             )
 
@@ -88,14 +96,18 @@ return array(
                 'padding-left' => '30px',
                 'padding-right' => '30px'
             ),
+            'typography' => array(
+                'font-size' => '16px',
+                'line-height' => '1.5',
+            ),
             'margin' => array(
                 'margin-top' => '0px',
-                'margin-bottom' => '0px',
+                'margin-bottom' => '10px',
                 'margin-left' => '10px',
                 'margin-right' => '10px'
             ),
             'border' => array(
-                'width' => '1',
+                'width' => '3',
                 'radius' => '4',
                 'color' => '#3182CE'
             ),
@@ -124,12 +136,16 @@ return array(
             ),
             'margin' => array(
                 'margin-top' => '0px',
-                'margin-bottom' => '0px',
+                'margin-bottom' => '10px',
                 'margin-left' => '10px',
                 'margin-right' => '10px'
             ),
+            'typography' => array(
+                'font-size' => '16px',
+                'line-height' => '1.5',
+            ),
             'border' => array(
-                'width' => '1',
+                'width' => '3',
                 'radius' => '4',
                 'color' => '#3182CE'
             ),
@@ -155,6 +171,10 @@ return array(
             'padding-top' => '64px',
             'padding-bottom' => '64px'
         ),
-        'color' => '#2D3748'
+        'color' => '#2D3748',
+        'typography' => array(
+            'font-size' => '17px',
+            'line-height' => '1.6',
+        )
     )
 );

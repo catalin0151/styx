@@ -24,6 +24,16 @@ class PrimaryButtonComponent extends ComponentBase
         $section = $this->getSectionId();
         return array(
             [
+                'settings' => $this->settingPath('typography'),
+                'path' => 'typography',
+                'styledComponent' => PrimaryButtonStyledComponents::CONTAINER,
+                'type' => 'typography',
+                'label' => __('Typography', 'styx'),
+                'section' => $section,
+                'default' => Defaults::get($this->settingPath('typography')),
+                'priority' => 19
+            ],
+            [
                 'settings' => $this->settingPath('separator' . $this->separatorIndex++),
                 'type' => 'title',
                 'label' => __('Button Colors', 'styx'),
