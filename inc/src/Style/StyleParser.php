@@ -145,7 +145,7 @@ class StyleParser
     public function addRules($data, $styledComponent, $rulesManager, $options = array()) {
         foreach ($data as $parserName => $propertyValue) {
 
-            $style = $this->parsers[$parserName]::parse($propertyValue);
+            $style = call_user_func( $this->parsers[ $parserName ] . '::parse', $propertyValue );
             $rulesManager->addRule($style, $styledComponent, $options);
         }
     }
